@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+    background-image: linear-gradient(179.61deg, #F5EBDC 74.82%, rgba(245, 235, 220, 0) 82.47%, #FFFFFF 92.72%);
+}
+
+body {
+    overflow: hidden;
+}
+
+:root {
+    --font: 'Montserrat', sans-serif;
+    --cor-marrom: #502314;
+    --cor-barra: #D62200;
+    --cor-button: #DB3B1D;
+}
+
+/* Logos */
+.logo {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0 1.75rem 0;
+    border-bottom: 1px solid var(--cor-barra);
+}
+
+/* conteúdo */
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 0 0;
+    flex-direction: column;
+}
+
+/* botão */
+.button {
+    padding: 1.75rem 0 0 0;
+}
+
+.button__pedido {
+    font-family: var(--font);
+    font-weight: 400;
+    color: white;
+    background-color: var(--cor-button);
+    border: none;
+    border-radius: 8px;
+    width: 333.47px;
+    height: 95px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* footer */
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__paragrafo {
+    padding: 1rem;
+    color: var(--cor-marrom);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.rodape__pagamentos {
+    padding: 1rem;
+}
