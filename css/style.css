@@ -58,12 +58,63 @@ body {
 }
 
 .rodape__paragrafo {
-    padding: 1rem;
+    padding: 1.25rem;
     color: var(--cor-marrom);
     font-size: 18px;
     line-height: 22px;
 }
 
 .rodape__pagamentos {
-    padding: 1rem;
+    background-image: url(../images/Footer_Totem\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    width: 100%;
+    padding: 3rem 0 2rem 0;
+}
+
+@media (max-width: 420px) {
+    .logo {
+        width: 90vw;
+        padding: 6px 0 6px 0;
+        align-items: center;
+    }
+    
+    .logo__img1 {
+        width: 25vw;
+    }
+    .logo__img2 {
+        width: 25vw;
+        height: 30%;
+    }
+    .conteudo {
+        text-align: ;
+    }
+    .conteudo__propaganda {
+        width: 85vw;
+        justify-content: flex-start;
+    }
+    .button {
+        padding: 0;
+    }
+    .button__pedido {
+        font-size: 25px;
+        width: 15rem;
+        height: 50px;
+    }
+    .rodape__paragrafo {
+        text-align: center;
+        width: 280px;
+    }
+    .rodape__pagamentos {
+        width: 50%;
+        background-image: url(../images/Footer_Totem\ 1\ p.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 700px) {
+
 }
